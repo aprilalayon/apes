@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Domine-Bold';
+    font-style: bold;
+    src: local('Domine-Bold'), url(@/assets/fonts/Domine-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Domine-Regular';
+    font-style: normal;
+    src: local('Domine-Regular'), url(@/assets/fonts/Domine-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Poppins-Bold';
+    font-style: bold;
+    src: local('Poppins-Bold'), url(@/assets/fonts/Poppins-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Poppins-Regular';
+    font-style: normal;
+    src: local('Poppins-Regular'), url(@/assets/fonts/Poppins-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Poppins-Thin';
+    font-style: normal;
+    src: local('Poppins-Thin'), url(@/assets/fonts/Poppins-Thin.ttf) format('truetype');
+}
