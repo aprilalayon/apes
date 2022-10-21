@@ -16,6 +16,6 @@ I'm a **Front End Developer** with years of experience merging code and design i
 
 ## :mag: What I am currently looking for
 - Full-time front end development or software engineering opportunities
-- Collaborae on open source projects
+- Collaborate on open source projects
 
 

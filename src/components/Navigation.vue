@@ -8,12 +8,7 @@
 </template>
 
 <script setup>
-    defineProps({
-        title: {
-        type: String,
-        required: true
-        }
-    })
+
 </script>
 
 <style scoped>
