@@ -1,28 +1,39 @@
 <template>
-    <div v-for="tab in tabData" :key="tab.id">
-        <ul class="tabs__header">
-            <li>
+    <div class="tabs__wrapper">
+        <ul class="tab__header" :class="orientation == 'vertical' ? 'vertical' : 'horizontal'">
+            <li v-for="tab in tabData" :key="tab.id">
                 <button 
-                :class="selectedIndex === tab.id ? 'active' : ''"
-                @click="selectTab(tab.id)">
+                    :class="selected === tab.id ? 'active' : ''"
+                    @click="selectTab(tab.id)"
+                >
                     {{ tab.company }}
                 </button>
             </li>
         </ul>
-        
-        <TabPanel v-show="selectedIndex === tab.id" :class="selectedIndex === tab.id ? 'active' : ''">
-            <h3>{{ tab.company }}</h3>
-            <p>{{ tab.role }}</p>
-            <p>{{ tab.range }}</p>
-            <p v-for="item in tab.description">
+        <TabPanel 
+            v-for="tab in tabData" :key="tab.id" class="tab__panel--wrapper" 
+            v-show="selected === tab.id" :class="selected === tab.id ? 'active' : ''"
+        >
+            <p class="role">{{ tab.role }}</p>
+            <p class="company">@ {{ tab.company }}</p>
+            <p class="range">{{ tab.range }}</p>
+            <li v-for="item in tab.experience" class="experience">
                 {{ item }}
-            </p>
+            </li>
+
+            <div class="panel--role_2" v-show="tab.role_2">
+                <p class="role_2">{{ tab.role_2 }}</p>
+                <p class="range_2">{{ tab.range_2 }}</p>
+                <li v-for="item in tab.experience_2" class="experience_2">
+                    {{ item }}
+                </li>
+            </div>
         </TabPanel>
-    
     </div>
 </template>
 
 <script>
+import "@/assets/styles/_tabs.scss";
 import TabPanel from './TabPanel.vue';
 
 export default {
@@ -37,39 +48,71 @@ export default {
     },
     data() {
         return {
-            selectedIndex: 0, // the index of the selected tab,
+            selected: 'newmode', // the index of the selected tab,
             tabData: [
                 {
                     id: "newmode",
                     company: "New/Mode",
                     role: "Front End Developer",
-                    range: "2019-2022",
-                    description: [
-                        "I did x",
-                        "I did 2",
-                        "I did three",
+                    range: "Mar 2018 - Oct 2022",
+                    experience: [
+                        "Centralized reusable components by building a design system that is accessible with the whole organization.",
+                        "Developed modular components and reusable code using different languages, platforms, frameworks, and content management systems such as JavaScript, Vue, PHP, Storybook, SASS, Drupal, WordPress and Chromatic to name a few",
+                        "Researched and explored strategies for appropriate modern front end framework to pursue for the product's future scalability and maintenance",
+                        "Communicated with multi-disciplinary teams of engineers, designers, vendors, and clients on a daily basis",
+                    ],
+                    role_2: "Front End Designer",
+                    range_2: "Apr 2021 - Jan 2022",
+                    experience_2: [
+                        "Conducted research and audited the product to find pain points and gaps in the user experience",
+                        "Designed and developed solutions that led to new features and generated new leads",
+                        "Implemented style guides and standardized design processes for the internal team",
+                        "Collaborated ideas with the product, data and engineering team on a daily basis",
                     ]
                 },
                 {
                     id: "freelance",
                     company: "Freelance",
-                    role: "Visual Graphic Artist",
-                    range: "2012-2020",
-                    description: [
-                        "I did many of these",
-                        "I did lots of these",
-                        "I did three times of these",
+                    role: "WordPress Developer",
+                    range: "Aug 2017 - Dec 2019",
+                    experience: [
+                        "Designed and developed websites for local small businesses using WordPress, PHP, SASS and Javascript",
+                    ],
+                    role_2: "Visual Graphic Artist",
+                    range_2: "2012 - Dec 2020",
+                    experience_2: [
+                        "Collaborated with both online and print publications, magazines, writers and local businesses in creating brand identity, illustrations, data visualization, advertising and other marketing collateral for their projects and business needs.",
                     ]
                 },
+                {
+                    id: "apple",
+                    company: "Apple",
+                    role: "Operations Specialist",
+                    range: "Dec 2014 - Feb 2018",
+                    experience: [
+                    "Generated business leads and led briefings to tackle workflow challenges of clients",
+                    "Assisted and provided solutions to clients from troubleshooting technical problems to purchasing the right products for their needs.",
+                    ],
+                },
+                {
+                    id: "designer",
+                    company: "Yulu",
+                    role: "Graphic Designer",
+                    range: "May 2016 - Dec 2016",
+                    experience: [
+                        "Oversaw multiple simultaneous graphic design projects for BCorp companies and other socially conscious businesses",
+                        "Maintained Yulu's website using WordPress tools",
+                        "Created social media assets for company events, website and other social media presence"
+                    ],
+                }
             ]
         }
             
     },
-
     methods: {
         selectTab(i) {
             const data = this.tabData;
-            this.selectedIndex = i;
+            this.selected = i;
 
             data.forEach((item, index) => {
                 item.isActive = (item.id === i);
@@ -80,6 +123,3 @@ export default {
 };
 
 </script>
-
-<style>
-</style>

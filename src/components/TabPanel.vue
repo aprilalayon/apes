@@ -7,11 +7,6 @@
 <script>
 export default {
   name: "TabPanel",
-  props: {
-    label: {
-      type: String,
-    }
-  },
   data () {
     return {
       isActive: true
