@@ -1,0 +1,79 @@
+.tabs__wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.tab__header {
+    margin-top: 50px;
+    border: 2px solid slategray;
+    border-right: none;
+    height: min-content;
+    padding: 0;
+    background-color: white;
+
+    li {
+        list-style-type: none;
+        margin: 0;
+    }
+}
+
+.tab__header button {
+    border: none;
+    background-color: white;
+    appearance: none;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+    font-family: 'Poppins-Bold';
+}
+
+.tab__header button.active {
+    background-color: lightgray;
+}
+
+.tab__header button:hover {
+    border: none;
+    background-color: yellow;
+}
+
+.tab__panel {
+    background-color: white;
+    margin: 15px 0 0 0;
+    padding: 30px;
+    width: 500px;
+    border-radius: 10px;
+    border: 2px solid slategray;
+    list-style: none;
+
+    p {
+        margin: 0;
+    }
+
+    .role, .company,  .role_2 {
+        font-size: 1.3rem;
+        display: inline-block;
+    }
+
+    .role, .role_2 {
+        margin-right: 10px;
+        font-family: 'Poppins-Bold';
+    }
+
+    .experience, .experience_2 {
+        position: relative;
+        padding-left: 30px;
+        margin-bottom: 15px;
+    }
+
+    .experience:before, .experience_2:before {
+        content: '▹';
+        color: slategray;
+        margin-right: .25em;
+        position: absolute;
+        left: 0;
+    }
+
+    .panel--role_2 {
+        margin-top: 30px;
+    }
+}
