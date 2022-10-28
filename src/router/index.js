@@ -18,7 +18,7 @@ const routes = [
     path: '/work',
     name: 'Work',
     component: Work
-  }
+  },
   {
     path: '/*',
     component: 404
