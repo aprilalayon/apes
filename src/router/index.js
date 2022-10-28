@@ -19,6 +19,10 @@ const routes = [
     name: 'Work',
     component: Work
   }
+  {
+    path: '/*',
+    component: 404
+  },
 ]
 
 const router = createRouter({
