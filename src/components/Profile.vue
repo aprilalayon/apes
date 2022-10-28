@@ -60,7 +60,6 @@ img {
     object-fit: cover;
     object-position: top center;
     border-radius: 10px;
-    filter: grayscale(100%);
     box-shadow: 6px 11px 36px -17px rgba(0,0,0,0.57);
 }
 

@@ -3,7 +3,7 @@
     <p>Hi, my name is</p>
     <h1>{{ name }}</h1>
     <p>
-      I'm a front end engineer dedicated to designing and building accessible and functional digital experiences.
+      I'm a front end engineer dedicated to designing and building accessible and fluent digital experiences.
     </p>
   </div>
 </template>

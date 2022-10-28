@@ -1,8 +1,3 @@
- <script setup>
-import Navigation from '@/components/Navigation.vue'
-import logo from '@/assets/images/logo.svg'
-</script>
-
 <template>
   <header>
     <router-link to="/">
@@ -18,6 +13,11 @@ import logo from '@/assets/images/logo.svg'
     <router-view />
   </div>
 </template>
+
+<script setup>
+import Navigation from '@/components/Navigation.vue'
+import logo from '@/assets/images/logo.svg'
+</script>
 
 <style scoped>
 header {
