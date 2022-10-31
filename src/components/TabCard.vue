@@ -56,18 +56,17 @@ export default {
                     role: "Front End Developer",
                     range: "Mar 2018 - Oct 2022",
                     experience: [
-                        "Centralized reusable components by building a design system that is accessible with the whole organization.",
-                        "Developed modular components and reusable code using different languages, platforms, frameworks, and content management systems such as JavaScript, Vue, PHP, Storybook, SASS, Drupal, WordPress and Chromatic to name a few",
-                        "Researched and explored strategies for appropriate modern front end framework to pursue for the product's future scalability and maintenance",
-                        "Communicated with multi-disciplinary teams of engineers, designers, vendors, and clients on a daily basis",
+                        "Centralized modern components by building a design system using Storybook. This standardized development and design processes of the whole organization.",
+                        "Developed modular components and reusable code for the improved product using modern front end frameworks and workflows like Vue, SASS, Javascript, Storybook and Chromatic",
+                        "Researched and explored strategies for appropriate modern front end framework for the product's future scalability and maintenance",
+                        "Collaborated with clients to create themes within our product to match the client's branding using PHP, Drupal and CSS",
                     ],
                     role_2: "Front End Designer",
                     range_2: "Apr 2021 - Jan 2022",
                     experience_2: [
-                        "Conducted research and audited the product to find pain points and gaps in the user experience",
-                        "Designed and developed solutions that led to new features and generated new leads",
-                        "Implemented style guides and standardized design processes for the internal team",
-                        "Collaborated ideas with the product, data and engineering team on a daily basis",
+                        "Conducted user research and usability testing to improve the quality of the product and to find the weakest areas of the product",
+                        "Collaborated and worked closely with the product, data and engineering teams to design and improve user flow and experience using design and prototyping tools like Balsamiq, Invision, Adobe XD and Figma",
+                        "Audited the legacy version of a web application and made recommendations to reduce confusing UI elements and improve critical UI elements that encourages faster campaign creation",
                     ]
                 },
                 {
@@ -76,7 +75,8 @@ export default {
                     role: "WordPress Developer",
                     range: "Aug 2017 - Dec 2019",
                     experience: [
-                        "Designed and developed websites for local small businesses using WordPress, PHP, SASS and Javascript",
+                        "Developed websites for local small businesses using WordPress, PHP, SASS, jQuery and Javascript",
+                        "Designed themes and user experience for WordPress sites to match the client's branding and styles"
                     ],
                     role_2: "Visual Graphic Artist",
                     range_2: "2012 - Dec 2020",
@@ -100,7 +100,7 @@ export default {
                     role: "Graphic Designer",
                     range: "May 2016 - Dec 2016",
                     experience: [
-                        "Oversaw multiple simultaneous graphic design projects for BCorp companies and other socially conscious businesses",
+                        "Oversaw multiple and simultaneous graphic design projects for BCorp companies and other socially conscious businesses",
                         "Maintained Yulu's website using WordPress tools",
                         "Created social media assets for company events, website and other social media presence"
                     ],

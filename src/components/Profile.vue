@@ -10,16 +10,13 @@
             remotely in rainy Vancouver, BC.
         </h3>
         <p>
-            April has 4 years of experience merging both their coding and design skills to build functional applications and products. 
-            They are skilled in using modern web development frameworks like Vue and React in their projects. They love learning about 
-            human behaviour through user research and usability testing, and how it can be used to translate and build better and delightful 
-            products. It is one of the most exciting and rewarding part of their career. Ensuring web accessibility is also one of their passions in 
-            making web applications and websites.
+            I spent the last four years working a hybrid role as a developer and a designer. I thrive the most when I am able to merge code and design in building solutions. Along with coding and developing apps, I have a passion for user research, usability testing and web accessibility.
         </p>
         <p>
-            They are dedicated to work with establishments and projects that align with values of accessibility, social justice, equity, and 
-            inclusion. In 2019 they formed Techincolour, a community-event tech space that catered to Black, Indigenous and people of colour to 
-            learn about tech and to server as a safe space network with other BIPOC tech workers in the Lower Mainland.
+            I am dedicated to work with establishments and projects that align with values of accessibility, social justice, equity, and inclusion. These days my time is spent coding, designing and prototyping. I also mentor newcomer self-identifying women to secure careers in tech.
+        </p>
+        <p>
+            In 2019 I formed Techincolour, a community tech space that catered to Black, Indigenous and people of colour to learn about tech and to serve as a space to network with other BIPOC tech workers in the Lower Mainland.
         </p>
     </div>
    
