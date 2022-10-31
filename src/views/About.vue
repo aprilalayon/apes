@@ -25,7 +25,6 @@ export default {
 .page__about {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  /* grid-template-rows: repeat(2, 1fr); */
   grid-column-gap: 30px;
   grid-row-gap: 0px;
 }
@@ -47,6 +46,7 @@ h1 {
   margin-top: 0;
   font-family: 'Domine-Bold';
   text-align: center;
+  color: #c76f47;
 }
 </style>
   

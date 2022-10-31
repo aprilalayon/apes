@@ -43,6 +43,7 @@ export default {
 .about__description h3 {
     font-family: "Domine-Bold";
     line-height: 50px;
+    color: #507981;
 }
 
 .about__description p {
