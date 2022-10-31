@@ -18,7 +18,9 @@
 nav a {
     font-family: "Poppins-Bold", Helvetica, Arial;
     text-decoration: none;
-    color: #568a93;
+    color: #66a9b5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 nav a:hover {
