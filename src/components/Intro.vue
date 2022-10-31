@@ -1,10 +1,13 @@
 <template>
   <div class="intro">
-    <p>Hi, my name is</p>
-    <h1>{{ name }}</h1>
-    <p>
-      I'm a front end engineer dedicated to designing and building accessible and fluent digital experiences.
-    </p>
+  
+    <div class="name__wrapper">
+      <h3>Hi, my name is</h3>
+      <h1>{{ name }}</h1>
+      <h3>
+        I'm a front end engineer dedicated to designing and building accessible and fluent digital experiences.
+      </h3>
+    </div>
   </div>
 </template>
   
@@ -18,11 +21,39 @@
 </script>
 
 <style scoped>
-h1 {
-  font-family: "Domine-Bold", Helvetica, Arial;
-  font-weight: 500;
-  font-size: 2.6rem;
-  top: -10px;
+.name__wrapper {
+	display: flex;
+  flex-direction: column;
 }
 
+h1 {
+  font-family: 'Domine-Bold', serif;
+  margin: 0 0 0 50px;
+  font-size: 10rem;
+} 
+
+h3 {
+  padding-left: 30px;
+  color: #66a9b5;
+}
+
+h1 {
+  color: #c76f47;
+  --x-offset: -0.0625em;
+  --y-offset: 0.0625em;
+  --stroke: 0.025em;
+  --background-color: white;
+  --stroke-color: #acd7df;
+  
+  text-shadow: 
+    var(--x-offset)
+    var(--y-offset)
+    0px
+    var(--background-color), 
+    
+    calc( var(--x-offset) - var(--stroke) )
+    calc( var(--y-offset) + var(--stroke) )
+    0px
+    var(--stroke-color);
+}
 </style>
