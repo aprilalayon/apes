@@ -43,7 +43,6 @@ export default {
 
 .about__description p {
     font-size: 1rem;
-    color: gray;
     line-height: 30px;
     letter-spacing: 0.2px;
 }

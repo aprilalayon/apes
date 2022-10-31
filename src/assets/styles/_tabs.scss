@@ -10,6 +10,7 @@
 /* tablet */
 @media (min-width: 600px){
     .tab__header {
+        display: block;
         margin-top: 50px;
         border-right: none;
         height: min-content;
@@ -36,16 +37,16 @@
 }
 
 .tab__header button.active {
-    background-color: #c76f47;
+    background-color: #bb5627;
 }
 
 .tab__header button:hover {
     border: none;
-    background-color: #c76f47;
+    background-color: #bb5627;
 }
 
 .tab__panel {
-    background-color: #689095;
+    background-color: #2b6975;
     margin: 15px 0 0 0;
     padding: 30px;
     width: 500px;

@@ -18,7 +18,7 @@
 nav a {
     font-family: "Poppins-Bold", Helvetica, Arial;
     text-decoration: none;
-    color: #66a9b5;
+    color: #2b6975;
     text-transform: uppercase;
     letter-spacing: 1px;
 }

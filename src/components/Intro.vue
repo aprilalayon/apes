@@ -34,7 +34,7 @@ h1 {
 
 h3 {
   padding-left: 30px;
-  color: #66a9b5;
+  color: #2b6975;
 }
 
 h1 {
