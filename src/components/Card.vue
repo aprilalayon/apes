@@ -10,7 +10,7 @@
         <div class="card__info">
             <div class="card__info-wrapper">
                 <h4 class="card__title">{{ title }}</h4>
-                <a class="card__link" :href="url" target="_blank">
+                <a class="card__link" :href="url" target="_blank" v-show="url">
                     <font-awesome-icon icon="icon fa-solid fa-up-right-from-square"/>
                 </a>
             </div>

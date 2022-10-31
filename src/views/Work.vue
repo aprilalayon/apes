@@ -16,6 +16,8 @@
 <script>
 import cedarside from "@/assets/images/cedarside.png"
 import sixlegsgood from "@/assets/images/sixlegs.png"
+import shoppingList from "@/assets/images/shoppinglist.png"
+import anthem from "@/assets/images/anthem.png"
 import Card from "@/components/Card.vue"
 
 export default {
@@ -26,8 +28,17 @@ export default {
     return {
       workData: [
         { 
+          title: "Anthem Design System",
+          imgUrl: anthem,
+          stacks: [
+            "Vue", "Storybook", "Chromatic", "SASS"
+          ],
+          description: "Anthem is a design system built to streamline and home to modular components developed from Vue and Storybook. Chromatic was used to track visual regression while new components were constantly being added",
+          tag: "dev",
+        },
+        { 
           title: "Shopping List Generator",
-          imgUrl: sixlegsgood,
+          imgUrl: shoppingList,
           url: "https://aprilalayon.github.io/shoppinglist/",
           stacks: [
             "React", "Javascript", "CSS",
