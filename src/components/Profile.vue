@@ -38,6 +38,7 @@ export default {
 
 .about__description {
     padding: 0 30px;
+    margin-bottom: 50px;
 }
 .about__description h3 {
     font-family: "Domine-Bold";
@@ -45,10 +46,10 @@ export default {
 }
 
 .about__description p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: gray;
-    line-height: 36px;
-    letter-spacing: 0.3px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
 }
 
 img {

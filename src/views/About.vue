@@ -25,7 +25,7 @@ export default {
 .page__about {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: repeat(2, 1fr);
+  /* grid-template-rows: repeat(2, 1fr); */
   grid-column-gap: 30px;
   grid-row-gap: 0px;
 }
