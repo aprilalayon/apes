@@ -31,24 +31,27 @@ export default {
         { 
           title: "Anthem Design System",
           imgUrl: anthem,
+          alt: "An image of an web application with a left sidebar menu, with selected Action Card Row. Middle part of the image shows a card element that reads Protect Old Growth Forest in black text. Above shows an active status and text reading Targeted email campaign. The bottom part of the card has an arrow button and a footer that read Updated five days ago. The right panel shows a column of input elements with placeholder text ",
           stacks: [
-            "Vue", "Storybook", "Chromatic", "SASS"
+            "Vue", "Storybook", "Chromatic", "SASS", "Drupal"
           ],
-          description: "Anthem is a New/Mode design system built to streamline and to home modular components developed from Vue and Storybook. Chromatic was used to track visual regression while new components were constantly being added.",
+          description: "Anthem is a New/Mode design system built to streamline modular components developed from Vue and Drupal. Storybook and Chromatic was used to home the components and track visual regression as we created and updated new UI components for the application",
           tag: "dev",
         },
         { 
           title: "Portfolio site",
           imgUrl: portfolio,
+          alt: "Image of a website landing page with logo at top left, navigation text Home, About and Work at top right in teal colour. The landing page had large text that says Hi, my name in teal colour and continues to April Alayon in orange colour. The next line reads I'm a front end developer dedicated to designing and building accessible and fluent digital experiences",
           stacks: [
             "Vue", "SASS", "WAVE", "Github Pages", "Netlify",
           ],
-          description: "This personal portfolio site was built using Vue and SASS to showcase my recent development and design projects.",
+          description: "This personal portfolio site was built using Vue and SASS to showcase my recent development and design projects. This project used a web accessibility evaluation tool to identify accessibility barriers during development and to meet WCAG 2.0 requirements.",
           tag: "dev",
         },
         { 
           title: "Shopping List Generator",
           imgUrl: shoppingList,
+          alt: "Image with a paper illustration background with title Today's Shopping List. And input element on the left that has a placeholder text Enter an item. An Add to list button on the right side. Below creates a list of items on the left and a delete button on the right side. List includes tomatoes, bananas, flour, blueberries, sugar and olive oil",
           url: "https://aprilalayon.github.io/shoppinglist/",
           stacks: [
             "React", "Javascript", "CSS", "Github Pages"
@@ -59,6 +62,7 @@ export default {
         {
           title: "Cedarside Coach House",
           imgUrl: cedarside,
+          alt: "A website landing page with a white background. A list of navigation items namely Home, About Cedarside, Rates, Logo image, Things to do, Gallery, Contact Us. A photo of the bed and breakfast house in the middle of the page. The house is surrounded by lots of greenery and at the bottom Cedarside Coach House is printed",
           url: "https://www.cedarside.com/",
           stacks: [
             "HTML", "SASS", "Javascript", "WordPress", "jQuery",
@@ -69,6 +73,7 @@ export default {
         {
           title: "Six Legs Good Apiaries",
           imgUrl: sixlegsgood,
+          alt: "An image of website landing page with navigation items: Our Honey, Our bees, logo image, About and Social. The bottom image has a black grunge texture background. In the middle the text reads Six Legs Good Apiaries surrouded by white dandelion illustrations",
           url: "https://www.sixlegsgood.com/",
           stacks: [
             "HTML", "SASS", "Javascript", "WordPress", "jQuery",

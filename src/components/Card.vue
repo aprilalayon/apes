@@ -10,12 +10,12 @@
         <div class="card__info">
             <div class="card__info-wrapper">
                 <h4 class="card__title">{{ title }}</h4>
-                <a class="card__link" :href="url" target="_blank" v-show="url">
-                    <font-awesome-icon icon="icon fa-solid fa-up-right-from-square"/>
+                <a class="card__link" :href="url" target="_blank" v-show="url" >
+                    <font-awesome-icon role="img" icon="icon fa-solid fa-up-right-from-square"/>
                 </a>
             </div>
             <ul class="card__stacks">
-                <font-awesome-icon icon="icon fa-solid fa-toolbox"/>
+                <font-awesome-icon role="img" icon="icon fa-solid fa-toolbox"/>
                 <li class="stack" v-for="stack in stacks">{{ stack }}</li>
             </ul>
             <p class="card__description">{{ description }}</p>
