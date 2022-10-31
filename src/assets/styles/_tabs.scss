@@ -4,14 +4,21 @@
 }
 
 .tab__header {
-    margin-top: 50px;
-    border-right: none;
-    height: min-content;
-    padding: 0;
+    display: none;
+}
 
-    li {
-        list-style-type: none;
-        margin: 0;
+/* tablet */
+@media (min-width: 600px){
+    .tab__header {
+        margin-top: 50px;
+        border-right: none;
+        height: min-content;
+        padding: 0;
+    
+        li {
+            list-style-type: none;
+            margin: 0;
+        }
     }
 }
 
