@@ -6,7 +6,7 @@
     />
     <div class="about__description">
         <h3>
-            I’m April, a Front End Engineer and Designer working 
+            I’m April, a Front End Developer and Designer working 
             remotely in rainy Vancouver, BC.
         </h3>
         <p>
@@ -18,12 +18,22 @@
         <p>
             In 2019 I formed Techincolour, a community tech space that catered to Black, Indigenous and people of colour to learn about tech and to serve as a space to network with other BIPOC tech workers in the Lower Mainland.
         </p>
+
+        <div class="about__links">
+            <a href="https://github.com/aprilalayon" target="_blank">
+                <font-awesome-icon icon="icon fa-brands fa-github"/>
+            </a>
+            <a href="https://www.linkedin.com/in/aprilalayon/" target="_blank">
+                <font-awesome-icon icon="icon fa-brands fa-linkedin" />
+            </a>
+        </div>
     </div>
    
 </template>
 
 <script>
 import image from "@/assets/images/profile.jpeg"
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 export default {
     data() {
@@ -41,10 +51,29 @@ export default {
     color: #507981;
 }
 
+.about__description {
+    margin-bottom: 30px;
+}
+
 .about__description p {
     font-size: 1rem;
     line-height: 30px;
     letter-spacing: 0.2px;
+}
+
+.about__links {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin: 0 auto;
+}
+.about__links a {
+    font-size: 2rem;
+    color: black;
+}
+
+.about__links a:hover {
+    color: #c76f47;
 }
 
 img {
@@ -58,11 +87,6 @@ img {
     margin: 0 auto;
 }
 
-/* mobile */
-@media (max-width: 599px) {
-
-}
-
 /* tablet */
 @media (min-width: 600px){
     .about__description {
@@ -74,6 +98,14 @@ img {
         font-size: 1.5rem;
         margin-top: 0;
         line-height: 36px;
+    }
+
+    .about__links {
+        margin: 0;
+    }
+
+    .about__links  {
+        margin: 0;
     }
 }
 
