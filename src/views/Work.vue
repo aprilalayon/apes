@@ -1,6 +1,6 @@
 <template>
     <div class="page__work">
-      <h1>Selected projects I designed and built</h1>
+      <h1>Selected projects I designed & built</h1>
       <Card
         v-for="work in workData"
         :title="work.title"
@@ -18,6 +18,7 @@ import cedarside from "@/assets/images/cedarside.png"
 import sixlegsgood from "@/assets/images/sixlegs.png"
 import shoppingList from "@/assets/images/shoppinglist.png"
 import anthem from "@/assets/images/anthem.png"
+import portfolio from "@/assets/images/portfolio.png"
 import Card from "@/components/Card.vue"
 
 export default {
@@ -33,7 +34,16 @@ export default {
           stacks: [
             "Vue", "Storybook", "Chromatic", "SASS"
           ],
-          description: "Anthem is a design system built to streamline and home to modular components developed from Vue and Storybook. Chromatic was used to track visual regression while new components were constantly being added",
+          description: "Anthem is a New/Mode design system built to streamline and to home modular components developed from Vue and Storybook. Chromatic was used to track visual regression while new components were constantly being added.",
+          tag: "dev",
+        },
+        { 
+          title: "Portfolio site",
+          imgUrl: portfolio,
+          stacks: [
+            "Vue", "SASS", "WAVE", "Github Pages", "Netlify",
+          ],
+          description: "This personal portfolio site was built using Vue and SASS to showcase my recent development and design projects.",
           tag: "dev",
         },
         { 
@@ -41,7 +51,7 @@ export default {
           imgUrl: shoppingList,
           url: "https://aprilalayon.github.io/shoppinglist/",
           stacks: [
-            "React", "Javascript", "CSS",
+            "React", "Javascript", "CSS", "Github Pages"
           ],
           description: "Getting ready to head out and go shopping? Make a list for things you need to buy and remove them as you pick up your items in the store. This application was created using React and CSS.",
           tag: "dev",
@@ -96,9 +106,9 @@ h1 {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     grid-area: 1 / 1 / 7 / 2;
-    line-height: 40px;
+    line-height: 60px;
   }
 }
 
