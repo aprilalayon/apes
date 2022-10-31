@@ -82,7 +82,8 @@ img {
 h4 {
     padding: 0;
     margin: 0 20px 0 0;
-    display: inline-block
+    display: inline-block;
+    color: #507981;
 }
 .fa-up-right-from-square {
     color: #568a93;

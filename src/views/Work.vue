@@ -1,6 +1,6 @@
 <template>
     <div class="work">
-      <h1>Selection of projects I designed and built</h1>
+      <h1>Selected projects I designed and built</h1>
       <Card
         v-for="work in workData"
         :title="work.title"
@@ -73,6 +73,9 @@ export default {
 h1 { 
   font-family: 'Domine-Bold';
   grid-area: 1 / 1 / 7 / 2;
+  color: #c76f47;
+  margin: 0;
+  line-height: 60px;
 }
 
 </style>
