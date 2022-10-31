@@ -5,7 +5,7 @@
       <h3>Hi, my name is</h3>
       <h1>{{ name }}</h1>
       <h3>
-        I'm a front end engineer dedicated to designing and building accessible and fluent digital experiences.
+        I'm a front end developer dedicated to designing and building accessible and fluent digital experiences
       </h3>
     </div>
   </div>
@@ -29,8 +29,8 @@
 h1 {
   font-family: 'Domine-Bold', serif;
   margin: 0 0 0 50px;
-  font-size: 10rem;
-} 
+  font-size: 4rem;
+}
 
 h3 {
   padding-left: 30px;
@@ -56,4 +56,34 @@ h1 {
     0px
     var(--stroke-color);
 }
+
+/* mobile */
+@media (max-width: 599px) {
+  .name__wrapper {
+    padding: 30px;
+  }
+  h1 {
+    margin-left: 20px;
+  }
+  
+  h3 {
+    font-size: 1.4rem;
+  }
+}
+
+/* tablet */
+@media (min-width: 600px){
+  h1 {
+    font-size: 8rem;
+  }
+}
+
+/* desktop */
+@media (min-width: 1200px){
+  h1 {
+    font-size: 10rem;
+  }
+}
+
+
 </style>

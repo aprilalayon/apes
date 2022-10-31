@@ -63,7 +63,7 @@ export default {
 }
 
 .img-wrapper {
-    width: 500px;
+    max-width: 500px;
     margin-bottom: 30px;
 }
 
@@ -80,15 +80,15 @@ img {
 }
 
 h4 {
-    padding: 0;
+    color: #507981;
     margin: 0 20px 0 0;
     display: inline-block;
-    color: #507981;
+    font-size: 1.2rem;
 }
 .fa-up-right-from-square {
     color: #568a93;
-    font-size: 25px;
 }
+
 .fa-up-right-from-square:hover {
     color: #c76f47;
 }
@@ -112,6 +112,18 @@ h4 {
 .card__description {
     font-size: 1rem;
     line-height: 30px;
+}
+
+
+/* tablet */
+@media (min-width: 600px){
+    h4 {
+        padding: 0;
+    }
+
+    .fa-up-right-from-square {
+        font-size: 1.2rem;
+    }
 }
 
 </style>

@@ -3,5 +3,19 @@ body {
 }
 
 .wrapper {
-    padding: 50px;
+    padding: 0;
+}
+
+/* tablet */
+@media (min-width: 600px){
+    .wrapper {
+        padding: 20px;
+    }
+}
+
+/* desktop */
+@media (min-width: 1200px){
+    .wrapper {
+        padding: 50px;
+    }
 }

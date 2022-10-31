@@ -1,5 +1,5 @@
 <template>
-    <div class="work">
+    <div class="page__work">
       <h1>Selected projects I designed and built</h1>
       <Card
         v-for="work in workData"
@@ -64,18 +64,31 @@ export default {
 
 <style scoped>
 
-.work {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr;
-  grid-column-gap: 25px;
+.page__work {
+  padding: 0 30px 30px 30px;
 }
+
 h1 { 
   font-family: 'Domine-Bold';
-  grid-area: 1 / 1 / 7 / 2;
   color: #c76f47;
-  margin: 0;
-  line-height: 60px;
+  margin-top: 0;
+  font-size: 1.6rem;
+}
+
+/* tablet */
+@media (min-width: 600px){
+  .page__work {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 25px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    grid-area: 1 / 1 / 7 / 2;
+    line-height: 40px;
+  }
 }
 
 </style>

@@ -23,23 +23,7 @@ export default {
 
 <style scoped>
 .page__about {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-column-gap: 30px;
-  grid-row-gap: 0px;
-}
-.about__img-profile {
-  grid-area: 1 / 1 / 2 / 2;
-}
-
-.about__description {
-  grid-area: 1 / 2 / 2 / 3;
-}
-
-.about--experience {
-  align-self: center;
-  justify-self: center;
-  grid-area: 2 / 1 / 3 / 3;
+  padding: 30px;
 }
 
 h1 {
@@ -47,6 +31,27 @@ h1 {
   font-family: 'Domine-Bold';
   text-align: center;
   color: #c76f47;
+}
+
+/* tablet */
+@media (min-width: 600px){
+  .page__about {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 30px;
+  }
+  .about__img-profile {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .about__description {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .about--experience {
+    align-self: center;
+    justify-self: center;
+    grid-area: 2 / 1 / 3 / 3;
+  }
 }
 </style>
   

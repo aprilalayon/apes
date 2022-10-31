@@ -35,11 +35,6 @@ export default {
 </script>
 
 <style scoped>
-
-.about__description {
-    padding: 0 30px;
-    margin-bottom: 50px;
-}
 .about__description h3 {
     font-family: "Domine-Bold";
     line-height: 50px;
@@ -54,12 +49,38 @@ export default {
 }
 
 img {
+    display: block;
     max-inline-size: 100%;
     block-size: auto;
     object-fit: cover;
     object-position: top center;
     border-radius: 10px;
     box-shadow: 6px 11px 36px -17px rgba(0,0,0,0.57);
+    margin: 0 auto;
+}
+
+/* mobile */
+@media (max-width: 599px) {
+
+}
+
+/* tablet */
+@media (min-width: 600px){
+    .about__description {
+        padding: 0 30px;
+        margin-bottom: 50px;
+    }
+
+    .about__description h3 {
+        font-size: 1.5rem;
+        margin-top: 0;
+        line-height: 36px;
+    }
+}
+
+/* desktop */
+@media (min-width: 1200px){
+
 }
 
 </style>
