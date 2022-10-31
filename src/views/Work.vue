@@ -25,6 +25,16 @@ export default {
   data() {
     return {
       workData: [
+        { 
+          title: "Shopping List Generator",
+          imgUrl: sixlegsgood,
+          url: "https://aprilalayon.github.io/shoppinglist/",
+          stacks: [
+            "React", "Javascript", "CSS",
+          ],
+          description: "Getting ready to head out and go shopping? Make a list for things you need to buy and remove them as you pick up your items in the store. This application was created using React and CSS.",
+          tag: "dev",
+        },
         {
           title: "Cedarside Coach House",
           imgUrl: cedarside,
@@ -32,7 +42,7 @@ export default {
           stacks: [
             "HTML", "SASS", "Javascript", "WordPress", "jQuery",
           ],
-          description: "I worked with a family-owned Bed and Breakfast business in the Sunshine Coast to modernize their website. The owners of Cedarside Coach House wanted to overhaul their website that had been the same for the past 15 years. I worked with two student web designers to achieve a modern look and feel of the website. During the design process, we created style and branding guides, built the website and had an ongoing communication with the clients to ensure that we are achieving their goals as a business. We implemented a design that would highlight the beauty of their location and a mobile-friendly site for travelling visitors.",
+          description: "I worked with a family-owned Bed and Breakfast business in the Sunshine Coast to modernize their website. The owners of Cedarside Coach House wanted to overhaul their website that had been the same for the past 15 years. I worked with two student web designers to achieve a modern look and feel of the website. We created style and branding guides, built the website and created tutorials as part of handoff and site delivery to the client. We implemented a design that would highlight the beauty of their location and a mobile-friendly site for travelling visitors.",
           tag: "dev",
         },
         {
@@ -42,7 +52,7 @@ export default {
           stacks: [
             "HTML", "SASS", "Javascript", "WordPress", "jQuery",
           ],
-          description: "Six Legs Good Apiaries is a small beekeeping business in East Vancouver. They are a husband and wife who wanted a logo for their business. The logo was created in 2016 and the website launched in 2019. In this project, I illustrated them in their beekeeping uniforms surrounded by dandelions. This is a monochromatic design to be able to transfer on their merchandise easily. The website design was a collaborative work to achieve more visibility and wider reach of potential customers on the web and social media.",
+          description: "Six Legs Good Apiaries is a small beekeeping business in East Vancouver. They are a Mom-and-pop shop who wanted a logo for their business. The logo was created in 2016 and the website launched in 2019. In this project, I illustrated them in their beekeeping uniforms surrounded by dandelions. This is a monochromatic design that can be easily transferred on their merchandise. The website design was a collaborative work with the client to reach wider range of customers using web and social media.",
           tag: "dev",
         },
       ]
