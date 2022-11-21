@@ -1,6 +1,6 @@
 <template>
   <header>
-    <router-link to="/">
+    <router-link to="/apes">
       <img 
         class="logo"
         alt="logo"
