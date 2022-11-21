@@ -5,7 +5,7 @@ import Work from '@/views/Work.vue'
 
 const routes = [
   { 
-    path: '/apes',
+    path: '/',
     name: 'Home',
     component: Home
   },

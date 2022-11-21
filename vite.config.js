@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 
 
 export default defineConfig({
-  base: `/apes/`,
+  base: `/`,
   plugins: [vue()],
   resolve: {
     alias: {
