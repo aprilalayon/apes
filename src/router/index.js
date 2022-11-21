@@ -5,17 +5,17 @@ import Work from '@/views/Work.vue'
 
 const routes = [
   { 
-    path: '/',
+    path: '/apes',
     name: 'Home',
     component: Home
   },
   { 
-    path: '/about',
+    path: '/apes/about',
     name: 'About',
     component: About
   },
   { 
-    path: '/work',
+    path: '/apes/work',
     name: 'Work',
     component: Work
   },

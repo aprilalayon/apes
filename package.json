@@ -1,7 +1,7 @@
 {
   "name": "pilot",
   "version": "0.0.0",
-  "homepage": "https://aprilalayon.github.io/",
+  "homepage": "https://aprilalayon.github.io/apes/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
