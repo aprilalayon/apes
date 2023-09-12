@@ -59,6 +59,8 @@ export default {
 <style scoped>
 .card {
     height: 100%;
+    width: 100%;
+    max-width: 380px;
     margin-bottom: 50px;
 }
 
@@ -100,7 +102,7 @@ h4 {
 .card__stacks {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 15px;
     padding: 0;
 }
 .stack {

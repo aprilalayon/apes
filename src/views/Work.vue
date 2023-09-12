@@ -1,6 +1,6 @@
 <template>
+    <h1>Projects</h1>
     <div class="page__work">
-      <h1>Selected projects I designed & built</h1>
       <Card
         v-for="work in workData"
         :title="work.title"
@@ -104,15 +104,14 @@ h1 {
 /* tablet */
 @media (min-width: 600px){
   .page__work {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr;
-    grid-column-gap: 25px;
+    display: flex;
+    grid-column-gap: 4rem;
+    flex-wrap: wrap;
   }
 
   h1 {
     font-size: 3rem;
-    grid-area: 1 / 1 / 7 / 2;
+    padding: 0 3rem;
     line-height: 60px;
   }
 }

@@ -48,8 +48,19 @@ export default {
     },
     data() {
         return {
-            selected: 'newmode', // the index of the selected tab,
+            selected: 'headphones', // the index of the selected tab,
             tabData: [
+            {
+                    id: "headphones",
+                    company: "Headphones",
+                    role: "Front End Developer",
+                    range: "Mar 2023 - July 2023",
+                    experience: [
+                        "Built and developed a Shopify application using Shopify API, Liquid and Gadget that boosted customer retention and increased sales lead",
+                        "Developed new features that made searching for a product and content easier for the end user",
+                        "Collaborated with the product, design, and content teams to bring their ideas and designs to life and create smooth digital experiences for our customers "
+                    ]
+                },
                 {
                     id: "newmode",
                     company: "New/Mode",

@@ -6,16 +6,14 @@
     />
     <div class="about__description">
         <h3>
-            I’m April, a Front End Developer and Designer working 
+            I’m April, a frontend developer and designer working 
             remotely in rainy Vancouver, BC.
         </h3>
         <p>
             I spent the last four years working a hybrid role as a developer and a designer at <a href="https://www.newmode.net/" target="_blank">New/Mode</a>. I thrive the most when I am able to merge code and design in building solutions. Along with coding and developing applications, I have a passion for user research, usability testing and web accessibility.
-        </p>
-        <p>
+            <br>
             I am dedicated to work with establishments and projects that align with values of accessibility, social justice, equity, and inclusion. In 2019 I formed Techincolour, a community tech space that catered to Black, Indigenous and people of colour to learn about tech and to serve as a space to network with other BIPOC tech workers in the Lower Mainland. I also mentor newcomer self-identifying women to secure careers in tech.
-        </p>
-        <p>
+            <br>
             Out of the office, you'll find me tending the garden, reading poetry and spending time with my dog, Cashew. 
         </p>
 
